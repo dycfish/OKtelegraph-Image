@@ -8,9 +8,9 @@ export default function Footer() {
   return (
     <footer className="w-full h-1/8 text-center bg-slate-200 flex flex-col justify-center items-center" style={translateY10Percent}>
       <div>
-        {/* 举报违规与反馈链接 */}
+        {/* 与反馈链接 */}
         <p style={{ marginBottom: '0.1rem', textAlign: 'center' }}>
-          <span style={{ color: '#6b7280', fontSize: '0.875rem' }}>举报与反馈：</span>
+          <span style={{ color: '#6b7280', fontSize: '0.875rem' }}>闲聊与反馈：</span>
           <a href="https://t.me/yunshuangimg" style={{ marginLeft: '0.5rem', color: '#4a90e2', textDecoration: 'underline', fontSize: '0.875rem' }} target="_blank" rel="noopener noreferrer">点击跳转TG</a>
         </p>
         {/* 友情链接部分 */}
